@@ -44,11 +44,11 @@ heapq 模块有两个函数：``nlargest()`` 和 ``nsmallest()`` 可以完美解
 
 .. code-block:: python
 
-    >>> nums = [1, 8, 2, 23, 7, -4, 18, 23, 42, 37, 2]
     >>> import heapq
+    >>> nums = [1, 8, 2, 23, 7, -4, 18, 23, 42, 37, 2]
     >>> heap = list(nums)
     >>> heapq.heapify(heap)
-    >>> nums
+    >>> heap
     [-4, 2, 1, 23, 7, 2, 18, 23, 42, 37, 8]
     >>>
 
